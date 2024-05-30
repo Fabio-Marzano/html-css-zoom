@@ -70,6 +70,29 @@ main {
 
 footer {
     height: 100px;
-    background-color: grey;
+    background-color: rgb(170, 166, 166);
+    display: flex;
+    justify-content: space-between;
     
 }
+
+.footer-left,
+.footer-center,
+.footer-right {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .footer-icon {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 0px 10px 0px 20px;
+    
+
+  }
+
+  .mt-10 {
+    margin-top: 10px;
+  }
